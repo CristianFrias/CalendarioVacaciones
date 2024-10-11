@@ -32,6 +32,10 @@ li{
   counter-reset: week-days-12 47;
 }
 
+.mes-enero{
+  counter-reset: week-days-11 ;
+}
+
 .mes-octubre .first-day{
   grid-column-start: 3;
 }
@@ -83,7 +87,7 @@ li{
 
 
 [class^="mes-"]{
-  width: 33%;
+  width: 30%;
   max-width: 430px;
 }
 
